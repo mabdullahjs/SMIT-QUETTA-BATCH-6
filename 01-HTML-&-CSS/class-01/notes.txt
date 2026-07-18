@@ -1,0 +1,39 @@
+HTML (Hyper text markup language)
+CSS (cascading style sheet)
+JS (JavaScript)
+
+
+cmd / code .
+
+tags
+
+opening tag <h1>
+closing tag </h1>
+self closing tag 
+
+
+<h1>Hello world</h1>
+
+Jo tag open hoga wo tag close bhi laazmi hoga.
+
+tags
+
+HTML
+head
+body
+title
+h1-h6
+p
+b
+i
+br
+hr
+ul unordered list
+li list items
+
+
+
+comment krna sa code execute nahi hota. comment ctrl + /
+
+attribute hamara tag ko extra information deta ha.
+attribute hamesha opening tag ma ata ha.
