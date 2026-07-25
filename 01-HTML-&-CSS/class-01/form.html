@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Job Application Form</h1>
+
+    <form>
+        <label for="fullname">fullname</label><br>
+        <input type="text" id="fullname" placeholder="enter your fullname"> <br><br>
+
+        <label for="email">email</label><br>
+        <input type="email" id="email" placeholder="enter your email"> <br><br>
+
+        <label for="number">phone number</label><br>
+        <input type="number" id="number" placeholder="enter your phone number"> <br><br>
+
+        <label for="dob">date of birth</label><br>
+        <input type="date" id="dob" placeholder="enter your dob"> <br><br>
+
+        <label for="password">password</label><br>
+        <input type="password" id="password" placeholder="enter your password"> <br><br>
+
+        <label for="gender">gender</label><br>
+
+        <label for="male">male</label>
+        <input type="radio" id="male" name="gender">
+        <label for="female">female</label>
+        <input type="radio" id="female" name="gender">
+        <label for="custom">custom</label>
+        <input type="radio" id="custom" name="gender"> <br><br>
+
+        <label for="applying">Applying For</label> <br>
+        <select id="applying">
+            <option value="software engineer">Software engineer</option>
+            <option value="graphic designer">Graphic Designer</option>
+            <option value="video editor">video editor</option>
+            <option selected value="digital marketer">digital marketer</option>
+            <option value="Cyber security">Cyber security</option>
+            <option value="Office boy">Office boy</option>
+        </select> <br><br>
+
+        <label for="years-of-experience">years-of-experience</label><br>
+        <input type="number" id="years-of-experience" placeholder="enter your experience"> <br><br>
+
+        <label for="interview-time">interview-time</label><br>
+        <input type="datetime-local" id="interview-time" placeholder="enter your experience"> <br><br>
+
+        <label for="resume">Upload Resume</label><br>
+        <input type="file" id="resume"> <br><br>
+
+        <label for="portfolio">portfolio</label><br>
+        <input type="url" id="portfolio" placeholder="enter your portfolio"> <br><br>
+
+        <label for="favcolor">favcolor</label><br>
+        <input type="color" id="favcolor" placeholder="enter your favcolor"> <br><br>
+
+        <label for="salary">salary</label><br>
+        <input type="range" min="10000" max="11000" id="salary" placeholder="enter your salary"> <br><br>
+
+
+        <label for="cover-letter">cover-letter</label> <br>
+        <textarea id="cover-letter" placeholder="enter your cover letter" rows="10" cols="60"></textarea>
+
+        <input type="submit">
+        <button>submit</button>
+
+    </form>
+</body>
+
+</html>

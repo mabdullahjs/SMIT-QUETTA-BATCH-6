@@ -37,3 +37,28 @@ comment krna sa code execute nahi hota. comment ctrl + /
 
 attribute hamara tag ko extra information deta ha.
 attribute hamesha opening tag ma ata ha.
+
+
+
+**Job Application Form (Practice Question)**
+
+Design a **Job Application Form** that includes the following input types:
+
+* Full Name (Text input)
+* Email Address (Email input)
+* Phone Number (Telephone input)
+* Date of Birth (Date input)
+* Password (Password input)
+* Gender (Radio buttons)
+* Position Applying For (Dropdown/Select)
+* Years of Experience (Number input)
+* Skills (Checkboxes – e.g., HTML, CSS, JavaScript, Python)
+* Preferred Interview Time (Time input)
+* Available Start Date (Date input)
+* Upload Resume (File input)
+* Personal Website or Portfolio (URL input)
+* Favorite Color (Color picker)
+* Expected Salary (Range input)
+* Cover Letter (Textarea)
+* Agree to Terms and Conditions (Checkbox)
+* Submit button
