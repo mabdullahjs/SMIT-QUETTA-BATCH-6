@@ -1,0 +1,49 @@
+/* h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    background-color: red;
+    color: white;
+} */
+
+/* internal css Majboori halat */
+/* external css recommended way*/
+/* inline css  X*/
+
+/* property / value */
+
+/* selectors */
+
+/* * {
+    color: red;
+} */
+
+/* h1 , h2 {
+    color: red;
+} */
+
+.text-center {
+  text-align: center;
+}
+
+.text-red {
+  color: red;
+}
+.text-purple {
+  color: purple;
+}
+
+
+#para-one {
+    color: blue;
+}
+
+.para-one > p {
+    color: cadetblue;
+}
+
+ul > li {
+    color: green;
+}

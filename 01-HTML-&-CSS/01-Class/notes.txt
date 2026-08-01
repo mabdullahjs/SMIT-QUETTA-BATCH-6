@@ -62,3 +62,10 @@ Design a **Job Application Form** that includes the following input types:
 * Cover Letter (Textarea)
 * Agree to Terms and Conditions (Checkbox)
 * Submit button
+
+
+
+there are two types links.
+
+relative links
+absolute links
