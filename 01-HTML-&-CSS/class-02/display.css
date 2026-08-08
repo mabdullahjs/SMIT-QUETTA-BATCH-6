@@ -1,0 +1,72 @@
+/* 
+Display
+
+inline
+block
+inline-block
+none
+
+
+*/
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+h1 {
+    display: inline;
+    width: 400px;
+    height: 40px;
+    visibility: hidden;
+}
+
+a {
+    display: block;
+    width: 400px;
+    height: 40px;
+
+    display: none;
+}
+
+img {
+    width: 300px;
+    height: 100px;
+}
+ */
+
+ /* body{
+    height: 1000vh;
+    background-image:url("https://img.magnific.com/free-vector/futuristic-technology-background_23-2148460426.jpg?semt=ais_test_b&w=740&q=80");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-attachment: fixed;
+    
+    background-position: right center;
+    background-size: 800px 500px;   
+ } */
+/* left top
+left center
+left bottom
+right top
+right center
+right bottom
+center top
+center center
+center bottom */
+
+
+#Parent{
+    border: 2px solid red;
+    background-color: brown;
+    width: 500px;
+    height: 700px;
+}
+#child{
+    border: 2px solid wheat;
+    background-color: aliceblue;
+    width: 400px;
+    height: 500px;
+}

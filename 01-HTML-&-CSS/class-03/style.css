@@ -1,0 +1,87 @@
+/* h1 {
+    text-align: end;
+}
+
+#head-two {
+    background-color: red;
+    color: white;
+}
+
+.heading {
+    background-color: blue;
+    color: white;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.content > p {
+    color: blue;
+}
+.content  p {
+    color: blue;
+}
+
+h1 + p {
+    color: red;
+}
+h1 ~ p {
+    color: red;
+} */
+/* precedence */
+
+/* universal  < tag selector */
+/* tag selector  < class selector */
+/* class selector  < id selector */
+
+#orange {
+  color: orange;
+}
+
+.yellow {
+  color: yellow;
+}
+
+h1 {
+  color: purple !important;
+}
+
+* {
+  color: red;
+}
+
+
+.parent{
+    color: red;
+    text-align: center;
+    border: 1px solid black;
+}
+
+p {
+    /* border: 1px solid black; */
+    border: inherit;
+}
+
+
+/* inheritance supported properties */
+
+/* | Property          | Example                      |
+| ----------------- | ---------------------------- |
+| `color`           | `color: red;`                |
+| `font-family`     | `font-family: Arial;`        |
+| `font-size`       | `font-size: 20px;`           |
+| `font-style`      | `font-style: italic;`        |
+| `font-weight`     | `font-weight: bold;`         |
+| `font-variant`    | `font-variant: small-caps;`  |
+| `line-height`     | `line-height: 1.5;`          |
+| `letter-spacing`  | `letter-spacing: 2px;`       |
+| `word-spacing`    | `word-spacing: 5px;`         |
+| `text-align`      | `text-align: center;`        |
+| `text-indent`     | `text-indent: 20px;`         |
+| `text-transform`  | `text-transform: uppercase;` |
+| `text-shadow`     | `text-shadow: 2px 2px gray;` |
+| `visibility`      | `visibility: hidden;`        |
+| `cursor`          | `cursor: pointer;`           |
+| `list-style-type` | `list-style-type: square;`   |
+ */
