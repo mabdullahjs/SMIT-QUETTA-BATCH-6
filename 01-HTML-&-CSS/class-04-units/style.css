@@ -1,0 +1,98 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+
+body {
+    font-family: "Google Sans", sans-serif;
+} */
+
+@font-face {
+    font-family: noto-sans;
+    src: url('./assets/fonts/google-sans/NotoSans-VariableFont_wdth\,wght.ttf');
+}
+
+@font-face {
+    font-family: jacquarda;
+    src: url('./assets/fonts/jacquarda/JacquardaBastarda9-Regular.ttf');
+}
+
+/* 16px === 100% */
+/* 10px === 62.5% */
+
+html {
+    font-size: 62.5%;
+}
+
+
+/* h1 {
+    text-transform: uppercase;
+} */
+
+/* p {
+    font-family: noto-sans;
+} */
+
+
+/* units */
+
+/* h1 =>  32px 2rem*/
+/* p =>  16px 1rem */
+
+/* 1 rem 16px by default*/
+
+/* 1 rem == 10px jugaaar */
+
+
+/* relative font
+
+rem
+%
+
+
+*/
+
+/* absolute font 
+vw
+vh
+px
+
+*/
+
+
+div {
+    /* border: 2px solid black; */
+    /* width: 50vw; */
+    /* height: 50vh; */
+}
+
+h1 {
+    /* border: 2px solid red; */
+    /* width: 60vw; */
+    text-align: center;
+    text-shadow: 3px 4px 4px #CE0000;
+    /* border: 1px solid black; */
+    /* border-width: 1px;
+    border-style: solid;
+    border-color: black; */
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+p {
+    /* font-weight: bold;
+    font-style: italic;
+    text-transform: lowercase;
+    text-decoration: line-through;
+    line-height: 20px;
+    word-spacing: 15px;
+    letter-spacing: 2px; */
+    text-align: justify;
+}
+
+
+
+/* font size === rem */
+/* width === percent */
+/* border === px */

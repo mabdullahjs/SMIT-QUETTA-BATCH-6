@@ -1,0 +1,35 @@
+/* button:hover{
+  border: 1px solid red;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+} */
+/* button:active{
+    background: blue;
+} */
+input:focus{
+    border: 1px solid yellowgreen;
+    outline: none;
+}
+/* p:last-child{
+    color: red;
+} */
+/* p:nth-child(3){
+    color: red;
+} */
+/* p:nth-child(even){
+    color: red;
+}
+p:nth-child(odd){
+    color: red;
+} */
+ a:link{
+    color: red;
+ }
+ a:visited{
+    color: blue;
+ }
+
+ input:checked{
+    accent-color: red; 
+ }
