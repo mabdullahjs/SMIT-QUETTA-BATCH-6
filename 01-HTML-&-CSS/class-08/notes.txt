@@ -1,0 +1,29 @@
+Introduction
+selectors
+box model
+units
+fonts and colors
+Display ==> Inline, block , inline-block , none
+(Flex , grid)
+
+Positions ==> Relative , absolute , sticky , fixed , z-index
+
+Layouting: 
+
+Float x
+Flexbox use
+Grid use
+
+
+main axis
+cross axis
+
+items hamesha main axis ka darmiyaan ma ghoomainga
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+Flex box parent:
+
+
+
+Flex box children:
