@@ -89,6 +89,117 @@
 // }
 
 
+// for(let i = 1; i <= 10; i++){
+//     console.log("parent loop " , i);
+// }
 
 
-// array loop , do while , while loop
+// let i = 1;
+// while(i < 0){
+//     console.log("hello world " , i);
+//     i++
+// }
+
+
+// let i = 11;
+// do {
+//     console.log("hello world " , i);
+//     i++
+// } while(i < 10);
+
+
+// infinite loop
+
+// let i = 1;
+// while(i > 0){
+//     console.log("hello world " , i);
+//     i++
+// }
+
+
+
+
+// array loop , do while , while loop , infinite loop
+
+// nested
+
+// let arr = [1 , 2, 3 , [4 , [5 , [6]]]]
+// console.log(arr[3][1][1][0]);
+
+const ul = document.querySelector("#result");
+
+const fruits = [
+  "Apple",
+  "Banana",
+  "Mango",
+  "Orange",
+  "Grapes",
+  "Pineapple",
+  "Watermelon",
+  "Papaya",
+  "Strawberry",
+  "Blueberry",
+  "Raspberry",
+  "Blackberry",
+  "Cherry",
+  "Peach",
+  "Pear",
+  "Plum",
+  "Apricot",
+  "Kiwi",
+  "Guava",
+  "Pomegranate",
+  "Lemon",
+  "Lime",
+  "Coconut",
+  "Avocado",
+  "Dragon Fruit",
+  "Passion Fruit",
+  "Jackfruit",
+  "Lychee",
+  "Fig",
+  "Date",
+  "Melon",
+  "Cantaloupe",
+  "Cranberry",
+  "Gooseberry",
+  "Tangerine",
+  "Mandarin",
+  "Grapefruit",
+  "Persimmon",
+  "Mulberry",
+  "Star Fruit",
+  "Durian",
+  "Longan",
+  "Rambutan",
+  "Quince",
+  "Nectarine",
+  "Olive",
+  "Kumquat",
+  "Soursop",
+  "Custard Apple",
+  "Jujube"
+];
+
+for(let i = 0; i < fruits.length; i++){
+    console.log(fruits[i] , i);
+    ul.innerHTML += `<li>${fruits[i]}</li>`;
+}
+
+const students = ["Ali", "Ahmed", "Sara", "Ayesha", "Usman"];
+
+const colors = ["Red", "Blue", "Green", "Yellow", "Purple"];
+
+const countries = ["Pakistan", "India", "Japan", "Turkey", "Canada"];
+
+const cars = ["Toyota", "Honda", "BMW", "Audi", "Suzuki"];
+
+const languages = ["JavaScript", "Python", "Java", "C++", "PHP"];
+
+const animals = ["Lion", "Tiger", "Elephant", "Cat", "Dog"];
+
+const cities = ["Karachi", "Lahore", "Islamabad", "Quetta", "Peshawar"];
+
+const subjects = ["Math", "English", "Science", "Computer", "History"];
+
+const movies = ["Avatar", "Titanic", "Inception", "Interstellar", "Joker"];
